@@ -1,0 +1,50 @@
+
+.green {
+    background-color: lightgreen;
+}
+
+.green:hover {
+    font-weight: 700;
+}
+
+.red {
+    background-color: rgb(250, 119, 119)
+}
+
+.red:hover {
+    font-weight: 700;
+}
+
+#nav {
+    background-color: black;
+}
+
+.naventry{
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#bigbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.smallbox {
+    color: black;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 0%;
+    background-color: white;
+    /* max-width: fit-content; */
+}
+
+#bro {
+    background-color: white;
+    border-radius: 20%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Home</title>
+    <link rel="stylesheet" href="mentorhome.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div id="nav">
+        <div class="naventry">
+            <a href="mentorhome.html"><h2>Home</h2></a>
+        </div>
+        <div class="naventry">
+            <a href="index.html"><h2>Log Out</h2></a>
+        </div>
+    </div>
+    <h1>Welcome back, NAME!</h1>
+    <br><br><br>
+    <div id="bigbox">
+        <div class="smallbox">
+            <h2>Please enter a date and time you are available!</h2>
+            <label for="Date"><b>Date</b></label>
+            <br>
+            <input type="date">
+            <br><br>
+            <label for="timeslot"><b>From</b></label>
+            <br>
+            <input type="time" name="from" id="">
+            <br><br>
+            <label for="time"><b>Until</b></label>
+            <br>
+            <input type="time" name="until" id="">
+            <br><br>
+            <button type="submit" id="bro"><b>Add</b></button>
+            <br><br>
+            <h3>Your availabilities:</h3>
+            <ul>
+                <li>Sunday 1/1/2023 from 10:00 AM to 11:00 AM</li>
+                <li>Tuesday 3/1/2023 from 11:00 AM to 12:00 PM</li>
+            </ul>
+        </div>
+        <div class="smallbox">
+            <h3>Here are your booked timeslots</h3>
+            <ul>
+                <li>Sunday 1/1/2023 from 10:00 AM to 11:00 AM <br>Has been booked by Dwayne Johnson <br><br></li>
+                <input type="text" placeholder="Enter the purpose of the meeting">
+                <button class="green">Accept</button> <button class="red">Reject</button> <br><br>
+                <li>Tuesday 3/1/2023 from 11:00 AM to 12:00 PM <br>Has been booked by The Rock <br><br></li>
+                <input type="text" placeholder="Enter the purpose of the meeting">
+                <button class="green">Accept</button> <button class="red">Reject</button> <br>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

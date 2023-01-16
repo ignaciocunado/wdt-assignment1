@@ -1,0 +1,48 @@
+label textarea{
+    vertical-align: middle;
+}
+
+
+#nav {
+    background-color: black;
+}
+
+.naventry{
+    color: white;
+}
+
+#form {
+    text-align: center;
+    width: 500px;
+    border: 5px solid black;
+    padding: 30px;
+    border-radius: 10%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgb(112, 112, 112);
+    background-color: white;
+}
+
+#form:hover{
+    box-shadow: 0 16px 32px rgb(112, 112, 112);
+    transition: 0.3s;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    }
+
+
+h2{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+a{
+    color:  white;
+}

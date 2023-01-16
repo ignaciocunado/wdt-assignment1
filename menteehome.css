@@ -1,0 +1,61 @@
+body, html {
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#bigbox {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(129, 129, 129);
+    width: 50%;
+    margin: auto;
+
+}
+
+#bigbox:hover {
+    box-shadow: 0 16px 32px 0 rgb(129, 129, 129);
+    transition: 0.3s;
+}
+
+#input {
+    margin: auto;
+    width: 500px;
+}
+
+a {
+    color: black;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+form{
+    color: white;
+    text-align: center;
+}
+
+#nav {
+    background-color: white;
+}
+
+.naventry{
+    color: black;
+}
+
+

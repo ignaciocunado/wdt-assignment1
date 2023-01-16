@@ -1,0 +1,58 @@
+body, html {
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+#bigdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    border: 3px solid white;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgb(112, 112, 112);
+    background-color: white;
+    height: 375px;
+    width: 250px;
+}
+
+.card:hover{
+    box-shadow: 0 32px 64px 0 rgb(112, 112, 112);
+    transition: 0.3s;
+}
+
+.profilepic {
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold; 
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#nav {
+    background-color: white;
+}
+
+.naventry{
+    color: black;
+}
+
+a{
+    color: black;
+}

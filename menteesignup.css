@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+
+}
+
+#main {
+    color: white;
+    width: 250px;
+    border: 5px solid white;
+    padding: 30px;
+    margin: 100px;
+    border-radius: 10%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 white;
+    background-color: black;
+    min-width: 40%;
+}
+
+#main:hover{
+    box-shadow: 0 16px 32px white;
+    transition: 0.3s;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align:  center;
+}
+
+form {
+    text-align: center;
+}
+
+#nav {
+    background-color: white;
+}
+
+.naventry{
+    color: white;
+}
+
+a{
+    color:  black;
+}
